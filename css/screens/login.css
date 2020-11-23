@@ -80,8 +80,13 @@
   transition: border-color 0.3s ease-in-out;
 }
 
-#login-form::placeholder {
-  color: rgba(0, 0, 0, 0.87);
+#login-form input::placeholder {
+  color: silver;
+}
+
+#login-form input[type="text"], 
+#login-form input[type="password"] {
+  color: white;
 }
 
 #login-form input:nth-child(3) {
