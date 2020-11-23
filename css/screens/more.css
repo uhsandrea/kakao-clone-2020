@@ -1,0 +1,53 @@
+.more-screen {
+  height: 120vh;
+  background-color: var(--dark-navy);
+}
+
+.more-notification {
+  position: absolute;
+  left: 46px;
+  bottom: 22px;
+}
+
+.more-screen .user-component .exclamation {
+  color: tomato;
+  border: solid 2px tomato;
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.more-screen .icon-row {
+  margin-top: 35px;
+  padding-bottom: 0;
+}
+
+.more-suggestions {
+  margin-top: 50px;
+  border-top: var(--main-border);
+  padding-top: 40px;
+}
+
+.more-suggestions__title {
+  margin-bottom: 25px;
+  color: silver;
+}
+
+.more-suggestions .icon-image {
+  width: 70px;
+  height: 70px;
+  background-color: var(--yellow);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--dark-navy);
+}
+
+.more-suggestions .icon-row {
+  margin-top: 0px;
+}
