@@ -1,3 +1,2 @@
 # Kokoa Clone 2020
-
-HTML & CSS are so much fun!
+Cloning chatting app Kakao Talk with basic HTML & CSS
